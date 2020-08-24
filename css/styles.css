@@ -1,0 +1,205 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/** Heading **/
+
+.big-heading {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 800;
+ font-size: 3.5rem;
+ line-height: 1.5;
+
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.cta-heading {
+  font-size: 3rem;
+}
+
+/** containers **/
+
+.container-fluid {
+  padding: 7% 15%;
+
+}
+
+/** Sections **/
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/**Navgigation Bar*/
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+ font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+ font-size: 1.2rem;
+}
+
+.ipho {
+ width: 60%;
+ transform: rotate(25deg);
+ position: absolute;
+ margin-left: 0;
+}
+
+.xmax {
+  bottom: 50px;
+  margin-bottom: 0px;
+}
+
+.navbar-nav {
+  margin-right: 150px;
+}
+
+
+/** title section **/
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+
+}
+
+/**Download-Button**/
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/**Features section**/
+
+.fontakia {
+  font-size:  60px;
+  color: #ef8172;
+  margin-bottom: 10px;
+
+
+}
+
+.fontakia :hover {
+  color: #ff4c68;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.boxakia {
+  padding: 4.5%;
+}
+
+/**Testimonial section***/
+
+#testimonials  {
+  background-color:  #ef8172;
+
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.test-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/** Press section**/
+
+#press {
+  background-color:  #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+/**Pricing**/
+
+#pricing {
+  padding:100px ;
+
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+
+}
+
+/** cta **/
+
+
+/** footer **/
+
+.down-btn {
+  margin: 5% 2% 5% 0;
+}
+
+.social{
+  margin: 20px 10px;
+}
+
+
+@media (max-width: 992px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .ipho {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
